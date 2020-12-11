@@ -2,4 +2,3 @@
 .gitignore
 .nvmrc
 webpack.config.js
-src
