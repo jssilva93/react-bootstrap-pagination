@@ -39,7 +39,7 @@ const PageItem = ({
 
                 }}
                 className={'page-link'}
-                onClick={() => onClick && onClick(page)}
+                onClick={(e) => onClick && onClick(page, e)}
                 {...onClick ? { href: '#' } : { href: href }} >
                 {text}
             </a>
